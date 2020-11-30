@@ -1,6 +1,6 @@
 ## Golang 百题大冲关
 
-课程包含 100 个 Golang 编程练习题目，高级会员可免费学习。
+课程包含 100 个 Golang 编程练习题目。
 
 课程地址：https://www.lanqiao.cn/courses/3224
 
