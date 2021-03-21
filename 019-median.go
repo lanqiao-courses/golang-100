@@ -12,7 +12,7 @@ func Median(nums ...float64) float64 {
 	sort.Float64s(n)
 
 	if len(nums)%2 == 0 {
-		return (n[m] + n[m+1]) / 2.0
+		return (n[m-1] + n[m]) / 2.0
 	}
 	return n[m]
 }

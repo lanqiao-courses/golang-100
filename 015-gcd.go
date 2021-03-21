@@ -18,6 +18,6 @@ func GCD(nums ...int) int {
 }
 func main() {
 	r1 := GCD(8, 36)               // 4
-	r2 := GCD([]int{11, 8, 32}...) // 4
+	r2 := GCD([]int{11, 8, 32}...) // 1
 	fmt.Println(r1, r2)
 }
