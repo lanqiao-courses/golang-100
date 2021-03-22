@@ -5,6 +5,9 @@ import (
 )
 
 func IsOdd(n int) bool {
+    if n < 0 {
+        n *= -1
+    }
 	return n%2 == 1
 }
 func main() {
